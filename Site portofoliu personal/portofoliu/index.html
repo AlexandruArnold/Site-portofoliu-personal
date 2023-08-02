@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofoliu personal</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- bara de nav-->
+    <nav class="navbar">
+        <h1 class="brand">logo</h1>
+        <ul class="links-container">
+            <li class="links-item"><a href="#" class="link active">home</a></li>
+            <li class="links-item"><a href="#project-section" class="link">project</a></li>
+            <li class="links-item"><a href="#about-section" class="link">about</a></li>
+            <li class="links-item"><a href="#contact-section" class="link">contact</a></li>
+            <li class="links-item"><a href="register.html" class="link">register</a></li>
+            <li class="links-item"><a href="game.html" class="link">test game</a></li>
+
+        </ul>
+    </nav>
+
+    <!-- Sectiunea HOME-->
+    <section class="home">
+        <div class="hero-content">
+            <h1 class="hero-heading"><span class="highlight">Salut, </span>Eu sunt Alex
+            </h1>
+            <p class="profesia">web developer</p>
+            <p class="info">JavaScript Developer</p>
+            <a href="contact-section" class="btn">contact</a>
+        </div>
+        <img src="img/img1.jpg" class="image imag1" alt="">
+    </section>
+
+    <!-- Sectiunea ABOUT-->
+    <section class="about" id="about-section">
+        <h2 class="heading">about<span class="highlight">me</span></h2>
+        <p class="sub-heading">Scurta descriere</p>
+        <div class="separator"></div>
+
+        <div class="about-me-container">
+            <div class="left-col">
+                <img src="img/img2.jpg" class="about-image imag1" alt="">
+            </div>
+            <div class="right-col">
+                <p class="about-para">Sunt pasionat de munca mea. Pentru că îmi place ceea ce fac, am o sursă constantă de motivație care mă determină să fac tot ce pot. În ultimul meu loc de muncă, această pasiune m-a determinat să descopăr provocări zilnice și să deprind noi abilități care m-au ajutat să depun o muncă mai calitativă. De exemplu, am învățat cum să folosesc Photoshop pentru a îmbunătăți calitatea fotografiilor și a graficelor noastre.</p>
+                <a href="#" class="btn">download cv</a>
+            </div>
+        </div>
+
+        <h2 class="heading">languages and framework</h2>
+        <div class="separator"></div>
+        <div class="skill-container">
+            <div class="skill-card" style="--bg: #f06529">
+                <p class="skill">HTML</p>
+            </div>
+            <div class="skill-card" style="--bg: #379ad6">
+                <p class="skill">CSS</p>
+            </div>
+            <div class="skill-card" style="--bg: #cc6699">
+                <p class="skill">JavaScript</p>
+            </div>
+            <div class="skill-card" style="--bg: #f7df1e">
+                <p class="skill">SQL</p>
+            </div>
+            <div class="skill-card large" style="--bg: #5ed9fb">
+                <p class="skill">Python</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Sectiunea Proiecte-->
+    <section class="project" id="project-section">
+        <h2 class="heading">Proiect<span class="highlight">s</span></h2>
+        <p class="sub-heading">Proiecte prezentare</p>
+        <div class="separator"></div>
+
+        <div class="filters">
+            <button class="filter-btn active" id="all">all</button>
+            <button class="filter-btn" id="javascript">javaScript</button>
+            <button class="filter-btn" id="ui">ui/ux</button>
+            <button class="filter-btn" id="backend">backend</button>
+            <button class="filter-btn" id="fullstack">fullStack</button>
+        </div>
+            <div class="project-container">
+                
+                <div class="project-card">
+                    <img src="img/img3.jpg" alt="">
+                    <div class="content">
+                        <!--<h1 class="project-name">project one <a href="game.html"></a></h1>-->
+                        <h1><li class="links-item"><a href="game.html" class="link">project one</a></li></h1>
+
+                    <span class="tags">#javascript</span>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </section>
+<!--Sectiunea Contact-->
+    <section class="contact" id="contact-section">
+        <h2 class="heading">Contact<span class="highlight"> Me</span></h2>
+        <p class="sub-heading">apostol_alex_arnold@yahoo.com</p>
+        <div class="separator"></div>
+        
+        <div class="contact-form">
+            <div class="name">
+                <input type="text" class="first-name" required placeholder="first name">
+                <input type="text" class="last-name" required placeholder="last name">
+            </div>
+            <input type="email" required class="email" placeholder="email">
+            <textarea class="message" placeholder="message" required></textarea>
+            <button class="btn contact-btn">contact</button>
+        </div>
+    </section>
+    
+    <footer class="footer">facut de apostol arnold alexandru</footer>
+    
+    <script project.js></script>
+    <script src="main"></script>
+</body>
+</html>
